@@ -20,4 +20,10 @@ public class ProductsPage {
 		return createProductBtn;
 	}
 	
+	@FindBy(xpath="//img[@title='Create Product...']")
+	private WebElement createProductBtn1;
+	public WebElement getCreateProductBtn1() {
+		return createProductBtn1;
+	}
+	
 }
