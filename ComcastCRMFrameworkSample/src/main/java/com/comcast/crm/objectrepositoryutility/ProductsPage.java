@@ -23,6 +23,7 @@ public class ProductsPage {
 	@FindBy(name="search")
 	private WebElement ele2;
 		
-
+	@FindBy(name="searchfield")
+	private WebElement ele4;
 	
 }
