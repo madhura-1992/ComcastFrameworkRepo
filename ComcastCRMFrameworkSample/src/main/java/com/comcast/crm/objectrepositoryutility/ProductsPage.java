@@ -32,4 +32,10 @@ public class ProductsPage {
 		return createProductBtn2;
 	}
 	
+	@FindBy(xpath="//img[@title='Create Product...']")
+	private WebElement createProductBtn3;
+	public WebElement getCreateProductBtn3() {
+		return createProductBtn3;
+	}
+	
 }
