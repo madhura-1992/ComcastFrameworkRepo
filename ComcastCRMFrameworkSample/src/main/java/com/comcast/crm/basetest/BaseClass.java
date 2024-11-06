@@ -39,7 +39,11 @@ public class BaseClass {
 	public void configBS() throws SQLException {
 		Reporter.log("==Connect to DB, Report Config==",true);
 		dLib.getDbConnection();	
+<<<<<<< HEAD
 		
+=======
+		System.out.println();
+>>>>>>> branch 'master' of https://github.com/madhura-1992/ComcastFrameworkRepo.git
 	}
 	
 	//@Parameters("BROWSER")

@@ -19,11 +19,18 @@ public class ProductsPage {
 	public WebElement getCreateProductBtn() {
 		return createProductBtn;
 	}
+
+	@FindBy(name="searchBtn")
+	private WebElement ele3;
 	
+<<<<<<< HEAD
 	@FindBy(name="search")
 	private WebElement ele2;
 		
 	@FindBy(name="searchfield")
 	private WebElement ele4;
+=======
+	
+>>>>>>> branch 'master' of https://github.com/madhura-1992/ComcastFrameworkRepo.git
 	
 }
